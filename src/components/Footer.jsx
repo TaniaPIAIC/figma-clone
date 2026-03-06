@@ -1,0 +1,88 @@
+import map from "../assets/Mask group map.png"
+import linkedin from "../assets/Mask(1).png"
+import twitter from "../assets/Mask(2).png"
+
+export default function Footer() {
+  return (
+    <footer className="bg-[#1E1E1E] text-gray-400 pt-16 pb-10 mt-10">
+      <div className="max-w-6xl mx-auto px-6">
+
+        
+        <div className="grid md:grid-cols-4 gap-12 items-start">
+
+          
+          <div>
+            <img src={map} alt="map" className="w-40 mb-4" />
+
+            <p className="text-xs text-gray-400">
+              Made with lots of ❤️ in San Francisco
+            </p>
+          </div>
+
+          
+          <div>
+            <h4 className="text-white text-sm font-semibold mb-4">Products</h4>
+
+            <ul className="space-y-2 text-sm">
+              <li>Delta</li>
+              <li>Sigma</li>
+              <li>Zeta</li>
+              <li>Alpha</li>
+              <li>Acumen</li>
+            </ul>
+          </div>
+
+          
+          <div>
+            <h4 className="text-white text-sm font-semibold mb-4">Resources</h4>
+
+            <ul className="space-y-2 text-sm">
+              <li>Help</li>
+              <li>Training Videos</li>
+              <li>Webinars</li>
+              <li>Request a Demo</li>
+              <li>Create Surveys</li>
+              <li>Quiz Maker</li>
+            </ul>
+          </div>
+
+          
+          <div>
+            <h4 className="text-white text-sm font-semibold mb-4">Company</h4>
+
+            <ul className="space-y-2 text-sm">
+              <li>About Us</li>
+              <li>Careers</li>
+              <li>Team</li>
+              <li>Contact Us</li>
+            </ul>
+          </div>
+
+        </div>
+
+        
+        <div className="border-t border-gray-700 mt-12 pt-6 flex flex-col md:flex-row justify-between items-center">
+
+          <p className="text-xs">
+            Copyright 2022 Circle. All rights reserved.
+          </p>
+
+          <div className="flex items-center gap-6 mt-4 md:mt-0">
+
+            <img src={linkedin} alt="linkedin" className="w-4 cursor-pointer opacity-80 hover:opacity-100" />
+            <img src={twitter} alt="twitter" className="w-4 cursor-pointer opacity-80 hover:opacity-100" />
+
+            <div className="text-xs flex gap-4">
+              <span className="cursor-pointer hover:text-white">Privacy Policy</span>
+              <span className="cursor-pointer hover:text-white">Data & Security</span>
+              <span className="cursor-pointer hover:text-white">Terms of Service</span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+    </footer>
+  )
+}
