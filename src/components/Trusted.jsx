@@ -24,12 +24,12 @@ export default function Trusted() {
 
 
         <div className="mt-10 flex flex-wrap justify-center items-center gap-10">
-          <img src={image14} className="h-6" />
-          <img src={image15} className="h-6" />
-          <img src={image16} className="h-6" />
-          <img src={image17} className="h-6" />
-          <img src={image18} className="h-6" />
-          <img src={image19} className="h-6" />
+          <img src={image14} className="h-6 transition-transform duration-300 hover:scale-110" />
+          <img src={image15} className="h-6 transition-transform duration-300 hover:scale-110" />
+          <img src={image16} className="h-6 transition-transform duration-300 hover:scale-110" />
+          <img src={image17} className="h-6 transition-transform duration-300 hover:scale-110" />
+          <img src={image18} className="h-6 transition-transform duration-300 hover:scale-110" />
+          <img src={image19} className="h-6 transition-transform duration-300 hover:scale-110" />
         </div>
 
         <div className="mt-10 flex flex-wrap justify-center items-center gap-10">

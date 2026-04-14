@@ -97,13 +97,13 @@ export default function Awards() {
           {cards.map((card, index) => (
             <div
               key={index}
-              className="h-[260px] bg-center bg-cover bg-no-repeat rounded-md flex flex-col items-center justify-center px-6"
-              style={{ backgroundImage: `url(${card.bg})` }}
+              className="h-[260px] bg-center bg-cover bg-no-repeat rounded-md flex flex-col items-center justify-center px-6 transition-all duration-300 hover:scale-105 hover:shadow-xl cursor-pointer animate-fade-in-up"
+              style={{ backgroundImage: `url(${card.bg})`, animationDelay: `${index * 0.1}s` }}
             >
               <img
                 src={card.icon}
                 alt={`award-${index + 1}`}
-                className="w-20 h-16 object-contain"
+                className="w-20 h-16 object-contain transition-transform duration-300 hover:scale-110"
               />
               <p className="mt-5 text-sm leading-6 text-gray-800 font-medium">
                 {card.text}

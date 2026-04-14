@@ -40,12 +40,13 @@ export default function Resources() {
           {cards.map((card, index) => (
             <div
               key={index}
-              className="bg-white overflow-hidden text-left shadow-[0_8px_24px_rgba(15,23,42,0.06)]"
+              className="bg-white overflow-hidden text-left shadow-[0_8px_24px_rgba(15,23,42,0.06)] transition-all duration-300 hover:shadow-xl hover:-translate-y-2 animate-fade-in-up"
+              style={{ animationDelay: `${index * 0.1}s` }}
             >
               <img
                 src={card.image}
                 alt={`resource-${index + 1}`}
-                className="w-full h-[138px] object-cover"
+                className="w-full h-[138px] object-cover transition-transform duration-300 hover:scale-105"
               />
 
               <div className="p-4">
@@ -57,7 +58,7 @@ export default function Resources() {
                   {card.text}
                 </p>
 
-                <button className="mt-4 bg-cyan-500 hover:bg-cyan-600 text-white text-[11px] px-4 py-2 rounded-sm transition-all duration-300">
+                <button className="mt-4 bg-cyan-500 hover:bg-cyan-600 text-white text-[11px] px-4 py-2 rounded-sm transition-all duration-300 hover:scale-105">
                   Read more
                 </button>
               </div>

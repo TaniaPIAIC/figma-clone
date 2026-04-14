@@ -27,25 +27,25 @@ export default function Testimonial() {
         <div className="relative flex justify-center">
           
           <div className="absolute -top-8 right-2 flex gap-3 z-20">
-            <img src={next1} className="w-8 h-8 opacity-40" />
-            <img src={next2} className="w-8 h-8" />
+            <img src={next1} className="w-8 h-8 opacity-40 cursor-pointer transition-all duration-300 hover:opacity-100 hover:scale-110" />
+            <img src={next2} className="w-8 h-8 cursor-pointer transition-all duration-300 hover:scale-110" />
           </div>
 
           <div className="relative w-[330px] md:w-[370px]">
             <img
               src={girl}
               alt="customer video"
-              className="w-full rounded-xl shadow-md"
+              className="w-full rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
             />
 
             <img
               src={play}
               alt="play"
-              className="absolute top-1/2 left-1/2 w-14 -translate-x-1/2 -translate-y-1/2 cursor-pointer"
+              className="absolute top-1/2 left-1/2 w-14 -translate-x-1/2 -translate-y-1/2 cursor-pointer transition-all duration-300 hover:scale-125 hover:brightness-110"
             />
 
             <div
-              className="absolute bottom-6 left-[58%] w-[250px] md:w-[270px] rounded-xl p-5 shadow-md bg-cover bg-center"
+              className="absolute bottom-6 left-[58%] w-[250px] md:w-[270px] rounded-xl p-5 shadow-md bg-cover bg-center transition-all duration-300 hover:shadow-xl hover:scale-105"
               style={{ backgroundImage: `url(${cardBg})` }}
             >
               <img

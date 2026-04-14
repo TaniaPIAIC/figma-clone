@@ -25,23 +25,23 @@ export default function Features() {
         
         <div className="flex justify-center gap-12 mt-10 text-sm text-gray-500">
 
-          <div className="flex items-center gap-2 border-b-2 border-cyan-500 pb-2">
-            <img src={createIcon} className="w-4" />
+          <div className="flex items-center gap-2 border-b-2 border-cyan-500 pb-2 cursor-pointer transition-all duration-300 hover:opacity-100">
+            <img src={createIcon} className="w-4 transition-transform duration-300 hover:scale-110" />
             Create
           </div>
 
-          <div className="flex items-center gap-2 opacity-60">
-            <img src={distributeIcon} className="w-4" />
+          <div className="flex items-center gap-2 opacity-60 cursor-pointer transition-all duration-300 hover:opacity-100 hover:border-b-2 hover:border-cyan-500 hover:pb-2">
+            <img src={distributeIcon} className="w-4 transition-transform duration-300 hover:scale-110" />
             Distribute
           </div>
 
-          <div className="flex items-center gap-2 opacity-60">
-            <img src={collectIcon} className="w-4" />
+          <div className="flex items-center gap-2 opacity-60 cursor-pointer transition-all duration-300 hover:opacity-100 hover:border-b-2 hover:border-cyan-500 hover:pb-2">
+            <img src={collectIcon} className="w-4 transition-transform duration-300 hover:scale-110" />
             Collect
           </div>
 
-          <div className="flex items-center gap-2 opacity-60">
-            <img src={analyzeIcon} className="w-4" />
+          <div className="flex items-center gap-2 opacity-60 cursor-pointer transition-all duration-300 hover:opacity-100 hover:border-b-2 hover:border-cyan-500 hover:pb-2">
+            <img src={analyzeIcon} className="w-4 transition-transform duration-300 hover:scale-110" />
             Analyze
           </div>
 
@@ -57,7 +57,7 @@ export default function Features() {
 
          
 
-          <div>
+          <div className="animate-slide-in-left">
 
   <h2 className="mt-2 text-2xl font-bold text-gray-900">
     Create
@@ -72,16 +72,16 @@ export default function Features() {
     surveys that help you collect feedback quickly and easily.
   </p>
 
-  <button className="mt-6 bg-[#00C2D1] hover:bg-[#00AFBD] text-white px-5 py-2 text-sm rounded">
+  <button className="mt-6 bg-[#00C2D1] hover:bg-[#00AFBD] text-white px-5 py-2 text-sm rounded transition-all duration-300 hover:scale-105">
     Get started for free
   </button>
 
 </div>
 
-          <div>
+          <div className="animate-slide-in-right">
             <img
               src={screenshot}
-              className="rounded-xl shadow-md"
+              className="rounded-xl shadow-md transition-transform duration-300 hover:scale-105"
             />
           </div>
 

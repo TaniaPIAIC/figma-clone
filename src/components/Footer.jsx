@@ -24,11 +24,11 @@ export default function Footer() {
             <h4 className="text-white text-sm font-semibold mb-4">Products</h4>
 
             <ul className="space-y-2 text-sm">
-              <li>Delta</li>
-              <li>Sigma</li>
-              <li>Zeta</li>
-              <li>Alpha</li>
-              <li>Acumen</li>
+              <li className="cursor-pointer hover:text-white transition-colors duration-300">Delta</li>
+              <li className="cursor-pointer hover:text-white transition-colors duration-300">Sigma</li>
+              <li className="cursor-pointer hover:text-white transition-colors duration-300">Zeta</li>
+              <li className="cursor-pointer hover:text-white transition-colors duration-300">Alpha</li>
+              <li className="cursor-pointer hover:text-white transition-colors duration-300">Acumen</li>
             </ul>
           </div>
 
@@ -37,12 +37,12 @@ export default function Footer() {
             <h4 className="text-white text-sm font-semibold mb-4">Resources</h4>
 
             <ul className="space-y-2 text-sm">
-              <li>Help</li>
-              <li>Training Videos</li>
-              <li>Webinars</li>
-              <li>Request a Demo</li>
-              <li>Create Surveys</li>
-              <li>Quiz Maker</li>
+              <li className="cursor-pointer hover:text-white transition-colors duration-300">Help</li>
+              <li className="cursor-pointer hover:text-white transition-colors duration-300">Training Videos</li>
+              <li className="cursor-pointer hover:text-white transition-colors duration-300">Webinars</li>
+              <li className="cursor-pointer hover:text-white transition-colors duration-300">Request a Demo</li>
+              <li className="cursor-pointer hover:text-white transition-colors duration-300">Create Surveys</li>
+              <li className="cursor-pointer hover:text-white transition-colors duration-300">Quiz Maker</li>
             </ul>
           </div>
 
@@ -51,10 +51,10 @@ export default function Footer() {
             <h4 className="text-white text-sm font-semibold mb-4">Company</h4>
 
             <ul className="space-y-2 text-sm">
-              <li>About Us</li>
-              <li>Careers</li>
-              <li>Team</li>
-              <li>Contact Us</li>
+              <li className="cursor-pointer hover:text-white transition-colors duration-300">About Us</li>
+              <li className="cursor-pointer hover:text-white transition-colors duration-300">Careers</li>
+              <li className="cursor-pointer hover:text-white transition-colors duration-300">Team</li>
+              <li className="cursor-pointer hover:text-white transition-colors duration-300">Contact Us</li>
             </ul>
           </div>
 
@@ -69,13 +69,13 @@ export default function Footer() {
 
           <div className="flex items-center gap-6 mt-4 md:mt-0">
 
-            <img src={linkedin} alt="linkedin" className="w-4 cursor-pointer opacity-80 hover:opacity-100" />
-            <img src={twitter} alt="twitter" className="w-4 cursor-pointer opacity-80 hover:opacity-100" />
+            <img src={linkedin} alt="linkedin" className="w-4 cursor-pointer opacity-80 hover:opacity-100 transition-opacity duration-300" />
+            <img src={twitter} alt="twitter" className="w-4 cursor-pointer opacity-80 hover:opacity-100 transition-opacity duration-300" />
 
             <div className="text-xs flex gap-4">
-              <span className="cursor-pointer hover:text-white">Privacy Policy</span>
-              <span className="cursor-pointer hover:text-white">Data & Security</span>
-              <span className="cursor-pointer hover:text-white">Terms of Service</span>
+              <span className="cursor-pointer hover:text-white transition-colors duration-300">Privacy Policy</span>
+              <span className="cursor-pointer hover:text-white transition-colors duration-300">Data & Security</span>
+              <span className="cursor-pointer hover:text-white transition-colors duration-300">Terms of Service</span>
             </div>
 
           </div>

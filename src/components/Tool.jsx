@@ -7,7 +7,7 @@ export default function Tool() {
       <div className="max-w-6xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
 
         
-        <div>
+        <div className="animate-slide-in-left">
           <p className="text-xs text-cyan-500 font-semibold tracking-widest">
             OUR PROMISE
           </p>
@@ -21,16 +21,17 @@ export default function Tool() {
             Circle has 100+ integrations with tools you already use and love.
           </p>
 
-          <button className="mt-6 bg-[#00c2d1] hover:bg-[#00afbd] text-white px-6 py-3 text-sm rounded-sm">
+          <button className="mt-6 bg-[#00c2d1] hover:bg-[#00afbd] text-white px-6 py-3 text-sm rounded-sm transition-all duration-300 hover:scale-105">
             Get started free
           </button>
         </div>
 
         
-        <div>
+        <div className="animate-slide-in-right">
           <img
   src={team}
-  className="rounded-xl w-[420px]"
+  className="rounded-xl w-[420px] transition-transform duration-300 hover:scale-105"
+  alt="team"
 />
         </div>
 
